@@ -1,0 +1,11 @@
+[menu]
+other = "Menu"
+
+[readMore]
+other = "Read more"
+
+[newer]
+other = "Newer"
+
+[older]
+other = "Older"
