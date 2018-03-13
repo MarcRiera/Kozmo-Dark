@@ -1,8 +1,8 @@
 name = "Kozmo Dark"
 license = "GPL"
-licenselink = "https://github.com/MarcRiera/Kozmo-Dark/master/LICENSE"
+licenselink = "https://github.com/MarcRiera/kozmo-dark/master/LICENSE"
 description = "A clean dark theme for Hugo websites"
-homepage = "https://github.com/MarcRiera/Kozmo-Dark"
+homepage = "https://github.com/MarcRiera/kozmo-dark"
 tags = ["clean", "dark"]
 features = ["responsive", "404", "blog", "multilingual"]
 min_version = 0.18
