@@ -262,6 +262,7 @@ td {
   border-collapse: collapse;
   margin: auto;
   text-align: center;
+  padding: 2px 2px 2px 2px;
 }
 
 th:empty {
@@ -271,7 +272,6 @@ th:empty {
 table img {
   display: inline;
   vertical-align: middle;
-  padding: 2px 2px 2px 2px;
   box-sizing: border-box;
 }
 
