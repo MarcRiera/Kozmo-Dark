@@ -264,7 +264,7 @@ td {
   text-align: center;
 }
 
-th {
+th:empty {
   display:none;
 }
 
