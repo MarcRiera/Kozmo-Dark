@@ -22,7 +22,7 @@
       <div id="header-left">
 
         <div id="site-logo">
-            <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}/{{ .Site.Params.logoimage }}"></a>
+            <a href="{{ .Site.BaseURL }}"><img alt="Site logo" src="{{ .Site.BaseURL }}/{{ .Site.Params.logoimage }}"></a>
         </div>
 
 	<div id="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
@@ -50,7 +50,7 @@
 
           {{ if isset .Params "image"}}
           <div id="featured-image">
-              <img src="{{ .Params.image }}">
+              <img alt="Featured image" src="{{ .Params.image }}">
           </div>
           {{end}}
         <div id="page-title-container">
