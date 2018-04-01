@@ -184,6 +184,7 @@ nav a.selected {
 .language-selector {
   list-style-type: none;
   font-size: 90%;
+  text-align: center;
 }
 
 .language-selector li {
@@ -214,13 +215,17 @@ nav a.selected {
 #site-logo {
   height: 100px;
   width: 100px;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 15px 20px;
 }
 
 #site-title {
-  padding: 10px 20px 0 0;
+  padding: 10px 20px 0 20px;
   font-weight: 600;
   font-size: 220%;
+}
+
+#site-slogan {
+  padding: 0 20px 10px 20px;
 }
 
 
@@ -397,12 +402,12 @@ nav ul.third {
 
 #header-left {
   float: left;
-  width: 60%;
+  width: 65%;
 }
 
 #header-right {
   float: right;
-  width: 40%;
+  width: 35%;
 }
 
 #site-logo {
@@ -474,7 +479,6 @@ nav ul.second > li a {
 /* Language selector */
 
 .language-selector {
-  text-align: center;
   float: none;
   margin: auto;
   padding: 0;

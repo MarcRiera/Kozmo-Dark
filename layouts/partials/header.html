@@ -21,9 +21,11 @@
 
       <div id="header-left">
 
+        {{ if isset .Site.Params "logoimage" }}
         <div id="site-logo">
             <a href="{{ .Site.BaseURL }}"><img alt="Site logo" src="{{ .Site.BaseURL }}{{ .Site.Params.logoimage }}"></a>
         </div>
+        {{ end }}
 
 	<div id="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
 	<div id="site-slogan">{{ .Site.Params.Description }}</div>
