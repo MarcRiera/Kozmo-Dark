@@ -1,0 +1,15 @@
+{{ $recentupdatessection := .Site.Params.recentupdates | default "blog"}}
+
+{{ with .Site.GetPage "section" $recentupdatessection }}
+
+  <div id="recent-updates">
+
+    <h2>{{ i18n "latestUpdates" }}</h2>
+
+    {{ range (first 3 (where .Pages "Section" $recentupdatessection)) }}
+      <p class="timestamp">{{ .Date.Format "2006-01-02" }} <a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    {{ end }}
+
+  </div>
+
+{{ end }}

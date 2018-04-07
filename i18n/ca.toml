@@ -9,3 +9,6 @@ other = "Més recent"
 
 [older]
 other = "Més antic"
+
+[latestUpdates]
+other = "Últimes actualitzacions"

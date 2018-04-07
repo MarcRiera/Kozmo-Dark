@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i');
 
 /* Basic theme elements */
 
@@ -49,23 +49,17 @@ h6 {
 
 a {
   text-decoration: none;
+  font-weight: 600;
 }
 
 a:link,
 a:active,
 a:visited {
-  color: #BBBBBB;
+  color: #CCCCCC;
 }
 
 a:hover,
 a.selected {
-  color: #208DCC;
-}
-
-p a:link,
-p a:active,
-p a:visited,
-p a:hover {
   color: #208DCC;
 }
 
@@ -167,17 +161,6 @@ nav ul li a {
   font-size: 90%;
 }
 
-nav a:link,
-nav a:active,
-nav a:visited {
-  color: #BBBBBB;
-}
-
-nav a:hover,
-nav a.selected {
-  color: #208DCC;
-}
-
 
 /* Language selector */
 
@@ -262,8 +245,8 @@ nav a.selected {
   text-align: justify;
 }
 
-#content .timestamp,
-#content .tags {
+.timestamp,
+.tags {
   color: #777;
 }
 
@@ -328,6 +311,14 @@ nav a.selected {
 .pagination .next-disabled {
   color: #555;
   text-decoration: none;
+}
+
+
+/* Home page: latest updates */
+
+#recent-updates {
+  padding: 0px 20px 10px 20px;
+  text-align: justify;
 }
 
 

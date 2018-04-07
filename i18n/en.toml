@@ -9,3 +9,6 @@ other = "Newer"
 
 [older]
 other = "Older"
+
+[latestUpdates]
+other = "Latest updates"

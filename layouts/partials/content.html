@@ -1,0 +1,15 @@
+<div id="content">
+
+{{ if not .IsHome }}
+{{ if not .Date.IsZero }}
+  <p class="timestamp">{{ .Date.Format "02-01-2006" }}</p>
+{{ end }}
+{{ end }}
+
+  {{ .Content }}
+
+{{ if .Params.tags }}
+  {{ partial "tags" .Params.tags }}
+{{ end }}
+
+</div>

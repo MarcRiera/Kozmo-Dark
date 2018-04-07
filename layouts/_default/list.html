@@ -1,5 +1,7 @@
 {{ partial "header.html" . }}
 
+<div id="content">
+
   {{ range sort .Paginator.Pages }}
     <div id="paginator-page">
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
@@ -8,7 +10,7 @@
       ...
     <div id="paginator-page-footer">
 	    {{ if not .Date.IsZero }}
-	    <p class="timestamp">{{ .Date.Format "02-01-2006" }}</p>
+	    <p class="timestamp">{{ .Date.Format "2006-01-02" }}</p>
 	    {{ end }}
 	    <div id="paginator-page-button">
 	    <a href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
@@ -21,5 +23,7 @@
     {{ end }}
   {{ end }}
   {{ partial "pagination.html" . }}
+
+</div>
 
 {{ partial "footer.html" . }}
