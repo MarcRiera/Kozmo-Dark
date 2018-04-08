@@ -1,4 +1,6 @@
 {{ partial "header.html" . }}
-{{ partial "content.html" . }}
+<div id="content">
+  {{ .Content }}
+</div>
 {{ partial "recentnews.html" . }}
 {{ partial "footer.html" . }}
