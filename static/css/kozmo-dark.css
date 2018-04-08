@@ -162,6 +162,7 @@ nav ul li a {
 }
 
 
+
 /* Language selector */
 
 .language-selector {
@@ -254,6 +255,17 @@ nav ul li a {
   padding-bottom: 1em;
 }
 
+#content a:link,
+#content a:active,
+#content a:visited {
+  color: #208DCC;
+}
+
+#content a:hover,
+#content a.selected {
+  color: #CCCCCC;
+}
+
 
 /* Paginator page: entries */
 
@@ -285,7 +297,9 @@ nav ul li a {
   margin: 0px 0px 0px 0px;
 }
 
-#paginator-page-button a {
+#paginator-page-button a:link,
+#paginator-page-button a:active,
+#paginator-page-button a:visited {
   color: #FFF;
 }
 
@@ -319,6 +333,17 @@ nav ul li a {
 #recent-updates {
   padding: 0px 20px 10px 20px;
   text-align: justify;
+}
+
+#recent-updates a:link,
+#recent-updates a:active,
+#recent-updates a:visited {
+  color: #208DCC;
+}
+
+#recent-updates a:hover,
+#recent-updates a.selected {
+  color: #CCCCCC;
 }
 
 
