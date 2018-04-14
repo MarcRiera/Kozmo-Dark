@@ -19,29 +19,31 @@ h6 {
 }
 
 h1 {
-  font-size: 150%;
+  font-size: 175%;
   font-weight: 600;
+  border-bottom: 1px solid #BBBBBB;
 }
 
 h2 {
-  font-size: 140%;
+  font-size: 150%;
   font-weight: 600;
+  border-bottom: 1px solid #BBBBBB;
 }
 
 h3 {
-  font-size: 130%;
+  font-size: 132%;
 }
 
 h4 {
-  font-size: 120%;
+  font-size: 116%;
 }
 
 h5 {
-  font-size: 110%;
+  font-size: 100%;
 }
 
 h6 {
-  font-size: 100%;
+  font-size: 85%;
 }
 
 
@@ -235,6 +237,7 @@ nav ul li a {
 
 #page-title h1 {
   margin: 0;
+  border-bottom: none;
 }
 
 
